@@ -12,16 +12,15 @@
     --texto-secundario: #FFFFFF;    
 }
 .titulo {
-    color:var(--texto-primario);
+    color:var(--texto-secundario);
     
 }
 
 .cabecalho {
-    background-color:var(--cor-primaria);
+
     text-align: center;
-    background: linear-gradient(90deg,
-    rgba(72,98,136,1) 0%, rgba(152,51,108,1) 0%,
-    rgba(0,212,255,1) 100%), url("fundo.png");
+    background-color: var(--cor-primaria);
+    background: linear-gradient(90deg,rgba(0,0,0,0.49343487394957986) 46%, rgba(152,51,108,1) 100%), url("fundo.png");
     background-repeat: no-repeat; 
     background-size: cover;
     min-height: 300px;
@@ -48,7 +47,7 @@
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: var(--texto-secundario): //cor do indice
+    color: var(--texto-secundario);
 
 }
 .menu-item:hover{
